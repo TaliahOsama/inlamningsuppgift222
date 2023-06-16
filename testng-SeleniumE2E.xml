@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/osama/AppData/Local/Temp/Temp1_StringDemo (1).zip/inlamningsuppgift222">
+        <classes>
+            <class name="SeleniumE2E.Login">
+                <methods><include name="test2_Login"/>
+                </methods>
+            </class>
+            <class name="SeleniumE2E.Logout">
+                <methods>
+                    <include name="test3_Logout"/>
+                </methods>
+            </class>
+            <class name="SeleniumE2E.ProductPurchase">
+                <methods>
+                    <include name="test4_ProductPurchase"/>
+                </methods>
+            </class>
+            <class name="SeleniumE2E.Register">
+                <methods>
+                    <include name="test1_Register"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
